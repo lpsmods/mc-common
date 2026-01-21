@@ -1,0 +1,53 @@
+{
+  "name": "@lpsmods/mc-common",
+  "version": "0.0.1",
+  "author": "legopitstop",
+  "license": "MIT",
+  "description": "Common utilities for @lpsmods Minecraft: Bedrock Edition packages.",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "vitest run",
+    "lint": "eslint ."
+  },
+  "homepage": "https://docs.lpsmods.dev/@lpsmods/mc-common",
+  "funding": "https://github.com/sponsors/legopitstop",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lpsmods/mc-common"
+  },
+  "bugs": {
+    "url": "https://github.com/lpsmods/mc-common/issues"
+  },
+  "keywords": [
+    "minecraft",
+    "bedrock",
+    "utils",
+    "addons",
+    "scripting",
+    "api"
+  ],
+  "devDependencies": {
+    "@types/pako": "^2.0.4",
+    "@typescript-eslint/eslint-plugin": "8.46.2",
+    "esbuild": "^0.27.2",
+    "eslint": "^9.38.0",
+    "eslint-plugin-minecraft-linting": "2.0.10",
+    "eslint-plugin-unused-imports": "^4.3.0",
+    "path": "^0.12.7",
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "5.9.3",
+    "vitest": "^4.0.7"
+  },
+  "peerDependencies": {
+    "@minecraft/server": "^2.4.0",
+    "@minecraft/server-ui": "^2.0.0"
+  },
+  "dependencies": {
+    "@bedrock-oss/add-on-registry": "^1.0.12",
+    "@minecraft/math": "2.2.11",
+    "pako": "^2.1.0"
+  }
+}
