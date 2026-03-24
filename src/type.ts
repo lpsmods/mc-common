@@ -1,3 +1,4 @@
+// TODO: Replace with a type registry system.
 /**
  * Generic types.
  */

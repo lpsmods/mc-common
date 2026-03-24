@@ -1,5 +1,6 @@
 import { Player, RawMessage, world } from "@minecraft/server";
 import { ActionFormData } from "@minecraft/server-ui";
+
 import { TextUtils } from "../text";
 
 export class ActionFormEvent {

@@ -3,9 +3,10 @@
  */
 
 import { RawMessage } from "@minecraft/server";
+import { Registry } from "@bedrock-oss/add-on-registry";
+
 import { ChatColor } from "./constants";
 import { Id, Identifier } from "./identifier";
-import { Registry } from "@bedrock-oss/add-on-registry";
 
 /**
  * Generic text translations.

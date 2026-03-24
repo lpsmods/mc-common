@@ -1,6 +1,7 @@
 import { Player } from "@minecraft/server";
-import { showWarning } from "./message_box";
 import { ModalFormData, ModalFormResponse } from "@minecraft/server-ui";
+
+import { showWarning } from "./message_box";
 import { TextKey } from "../text";
 
 // TODO: implement https://github.com/python/cpython/blob/3.14/Lib/tkinter/simpledialog.py

@@ -13,6 +13,7 @@ import {
   world,
   World,
 } from "@minecraft/server";
+
 import { PropertyValue } from "../constants";
 import { Typing, TypingTypes } from "../type";
 import {

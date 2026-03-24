@@ -1,4 +1,5 @@
 import { Player } from "@minecraft/server";
+
 import { PropertyValue } from "./constants";
 import { ModalForm, ModalFormHandler } from "./ui";
 import { DynamicObject, VersionedDataStorage } from "./data";

@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+
 import { TextUtils } from "./text";
 import { ChatColor } from "./constants";
 

@@ -1,5 +1,6 @@
 import { Player } from "@minecraft/server";
 import { ActionFormData, MessageFormData } from "@minecraft/server-ui";
+
 import { TextKey } from "../text";
 
 /**

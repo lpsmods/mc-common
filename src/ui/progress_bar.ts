@@ -1,5 +1,6 @@
 import { Player, RawMessage, world } from "@minecraft/server";
 import { clampNumber } from "@minecraft/math";
+
 import { Ticking } from "../ticking";
 import { ChatColor } from "../constants";
 

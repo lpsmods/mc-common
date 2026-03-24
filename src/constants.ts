@@ -30,7 +30,7 @@ export const REPLACEABLE_BLOCKS = [
   "deadbush",
   "seagrass",
   "snow_layer",
-]
+];
 
 export const CANDLES = [
   "candle",
@@ -50,7 +50,7 @@ export const CANDLES = [
   "purple_candle",
   "magenta_candle",
   "pink_candle",
-]
+];
 
 export const COLORS = [
   "white",
@@ -69,7 +69,7 @@ export const COLORS = [
   "purple",
   "magenta",
   "pink",
-]
+];
 
 export const WOOD_TYPES = [
   "oak",
@@ -84,7 +84,7 @@ export const WOOD_TYPES = [
   "bamboo",
   "crimson",
   "warped",
-]
+];
 
 export enum ChatColor {
   Aqua = `§b`,
